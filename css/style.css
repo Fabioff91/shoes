@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+
+/*body*/
+body{
+    font-family:"Rubik Mono One", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/*page*/
 .page{
     height: 100vh;
     width: 100%;
@@ -22,6 +31,9 @@
     background-color: yellow;
 }
 
+/*end page*/
+
+/*elements on the page*/
 img{
     position: absolute;
     top: 50%;
@@ -34,25 +46,41 @@ p{
     position: absolute;
     bottom: 100px;
     width: 100%;
+    color: yellow;
+    font-size: 50px;
+    
 }
 
+#greentext{
+    color: green;
+}
+
+/*end elements on the page*/
+
+/*button*/
 .button{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: white;
     color: black;
     text-align: center;
     vertical-align: middle;
-    line-height: 40px;
+    line-height: 60px;
     border-radius: 50%;
     display: inline-block;
     margin: 7px;
     cursor: pointer;
+    
 }
+/*end button*/
 
+/*container*/
 .container{
     position: fixed;
     right: 10px;
     top: 30px;
     z-index: 2;
 }
+/*end container*/
+
+/*end body*/
